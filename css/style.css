@@ -27,6 +27,34 @@ hr{
     margin-bottom: 27px;
 }
 
+/* header part start */
+header{
+    height: 94px;
+    line-height: 94px;
+    background: #562EFF;
+}
+.menu{
+    width: 870px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+nav a i{
+    font-size: 50px;
+}
+/* header part end */
+
 /* top players style */
 .top_players{
     margin-bottom: 30px;
